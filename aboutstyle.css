@@ -1,0 +1,495 @@
+ .ab{
+  
+  background-color: rgba(240, 240, 240, 0.82);
+  width:100%;
+  height: 580px;
+  overflow:hidden;
+  opacity:1;
+  filter: alpha(opacity=30);
+  border-radius: 10px 10px 10px 10px;
+}
+
+ .answertoquery .p{
+    font-family: 'Comfortaa';
+    font-size: 44px;
+  }
+
+.bodypart
+{
+  background-image: url("ki3.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main
+{
+  background-color: rgb(220,220,220);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.destinationheader
+{
+  color:black;
+  font-size: 40px;
+  font-family: "GArial Rounded MT Bold";
+  text-align:center;
+  padding-top: 10px;
+}
+.destinationheader
+{
+  background-color: rgba(240, 240, 240, 0.82);
+  width:100%;
+  height:80px;
+  overflow:hidden;
+  opacity:1;
+  filter: alpha(opacity=30);
+  border-radius: 10px 10px 0px 0px;
+  }
+  .hero-image {
+
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .hero-text button {
+    background-color: black;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .pdheader
+  {
+    color:black;
+    font-size: 40px;
+    font-family: 'Cedarville Cursive';
+    text-align:center;
+
+  }
+.quote
+{
+    font-family: cursive;
+    font-size: 20px;
+}
+.pd
+{
+  font-size: 35px;
+}
+  .pdheader
+  {
+    background-color: rgba(240, 240, 240, 0.82);
+    width:100%;
+    height:100px;
+    overflow:hidden;
+    opacity:1;
+    filter: alpha(opacity=30);
+    border-radius: 10px 10px 0px 0px;
+    }
+  }
+
+.heading{
+color:black;
+
+font-size: 40px;
+font-family: "GArial Rounded MT Bold";
+text-align:right;
+
+}
+.headerbox{
+background-image: url("aboutbg.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+height:550px;
+overflow:hidden;
+opacity:1;
+filter: alpha(opacity=30);
+border-radius: 10px 10px 0px 0px;
+}
+
+
+.statusbox{
+width:100%;
+height:50px;
+overflow:hidden;
+padding-left: 70px;
+padding-right: 70px;
+opacity:0.85;
+filter: alpha(opacity=30);
+}
+
+
+.statusboxul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+
+.statusboxli {
+    float: left;
+}
+
+.statusboxli a {
+    display: block;
+    color: white;
+    margin:5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.statusboxli a:hover {
+    background-color: #111;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  position: relative;
+  width: 50%;
+
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+  border-radius: 10px;
+}
+
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgb(252, 187, 157);
+  color: grey;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 10px;
+}
+.bar {
+  float: right;
+  color:white;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right: 0;
+  background-color:#333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+/*Css for Slideshow*/
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+.slideshowimg {
+  vertical-align: middle;
+  height: 400px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  background-color: inherit;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+li{
+  color: black;
+
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.footer
+{
+  color: white;
+  background-color: black;
+  height: 200px;
+        font-size: 30px;
+        font-family: "GArial Rounded MT Bold";
+        text-align:center;
+
+
+}
+
+
+/* Create three equal columns that floats next to each other */
+.footcolumn {
+
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text
+{
+color:white;
+font-size: 24px;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+.header {
+  width:30%;
+  margin:50px auto 0px;
+  color:white;
+  background: #5F9EA0;
+  text-align:center;
+  border:1px solid #B0C4DE;
+  border-bottom:none;
+  border-radius:10px 10px 0px 0px;
+  padding:20px;
+}
+form , .content {
+  width:30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background:white;
+  opacity: 0.7
+  border-radius:0px 0px 10px 10px;
+}
+.input-group {
+  margin:10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align:left;
+  margin:3px;
+}
+.input-group input {
+  height:30px;
+  width:93%;
+  padding:5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border:none;
+  border-radius: 5px;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.REGFORM{
+  background-image: url("r6.jpeg"),url("r3.jpeg"),url("r5.jpeg"),url("r4.jpeg"),url("r1.jpeg"),url("r7.jpeg");
+  background-position:top left,top center,top right,bottom left,bottom center,bottom right;
+  background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+  filter: alpha(opacity=30);
+  background-color:black;
+  height: 900px;
+  }
+  .divider{
+    background-color:black;
+  }
+
+  .answertoquery{
+    background-color: white;
+    align-items: center
+    width: 50px;
+    border: 25px black;
+    padding: 25px;
+    margin: 25px;
+
+  }
